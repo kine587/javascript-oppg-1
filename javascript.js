@@ -34,8 +34,8 @@ let number = 21;
 console.log(Number);
 booleanOne = true;
 booleanTwo = false;
-console.log(BooleanOne);
-console.log(BooleanTwo);
+console.log(booleanOne);
+console.log(booleanTwo);
 exampleArray = [500, "hi", true, false];
 console.log(exampleArray);
 
@@ -125,7 +125,9 @@ at betingelsen din fungerer som den skal.
 
 const userMale = false;
 
-const user = `user is male ? "true : false"`;
+const userTitle = "userMale" ? "Mr." : "Mrs.";
+console.log(userTitle);
+
 /* if (userMale === false) {
   console.log("Mr");
 } else {
