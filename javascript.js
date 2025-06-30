@@ -30,10 +30,10 @@ let exampleText = "Hello i can change";
 console.log(exampleText);
 const myNum = 12;
 console.log(myNum);
-let Number = 21;
+let number = 21;
 console.log(Number);
-BooleanOne = true;
-BooleanTwo = false;
+booleanOne = true;
+booleanTwo = false;
 console.log(BooleanOne);
 console.log(BooleanTwo);
 exampleArray = [500, "hi", true, false];
@@ -102,7 +102,7 @@ let goToPage = "";
 
 if (Age >= 18 && userName && userIsBlocked === false) {
   console.log("Sucsess: username not empty");
-  goToPage = "sucsess.html";
+  goToPage = "/home";
 } else {
   console.log("Error: userName is empty");
   goToPage = "fail.html";
@@ -125,8 +125,9 @@ at betingelsen din fungerer som den skal.
 
 const userMale = false;
 
-if (userMale === false) {
+const user = `user is male ? "true : false"`;
+/* if (userMale === false) {
   console.log("Mr");
 } else {
   console.log("Mrs");
-}
+} */
